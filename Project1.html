@@ -3,26 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
+    <title>Project1</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <!-- Hamburger Menu -->
-    <!-- Logo -->
+    <a href="#main-content" class="skip-to-main">Skip to Main Content</a>
     <header>
         <div class="off-screen-menu">
             <ul>
-                <li class="menu-item"><a href="index.html" >Homepage</a></li>
+                <li class="menu-item"><a href="index.html">Homepage</a></li>
                 <li class="menu-item"><a href="About.html">About</a></li>
                 <li class="menu-item"><a href="Contact.html">Contact</a></li>
             </ul>
         </div>
         <nav>
-            <!-- Logo -->
             <div class="logo">
-                <h1><img src="./Images/signature.png" alt="Signature logo">
-                </h1>
+                <h1><img src="./Images/signature.png" alt="Signature logo"></h1>
             </div>
             <div class="ham-menu">
                 <span></span>
@@ -32,17 +29,55 @@
         </nav>
     </header>
 
-    <main>
+    <main id="main-content">
+        <section class="project1">
+            <!-- Project Concept Section -->
+            <h2 class="section-title">Concept</h2>
+            <div class="project1-concept-img">
+                <div class="image-container">
+                    <img src="./Images/CRC_Workshop/2024 10 02 Concept Render_empty.png" alt="Empty Room Setup Render">
+                    <p class="image-description">This render shows an empty room setup before the workshop begins, highlighting the modular layout design.</p>
+                </div>
+                <div class="image-container">
+                    <img src="./Images/CRC_Workshop/2024 10 02 Concept Render.jpg" alt="Room Setup Render">
+                    <p class="image-description">A fully configured room setup ready for the workshop, with all necessary equipments.</p>
+                </div>
+            </div>
+
+            <!-- Workshop in Action Section -->
+            <h2 class="section-title">Workshop in Action</h2>
+            <div class="project1-workshop-img">
+                <div class="image-container">
+                    <img src="./Images/CRC_Workshop/41-IMG_8088.jpg" alt="Room Setup">
+                    <p class="image-description">The workshop space set up to optimize collaboration among participants.</p>
+                </div>
+                <div class="image-container">
+                    <img src="./Images/CRC_Workshop/44-IMG_8126.jpg" alt="Workshop in Action1">
+                    <p class="image-description">Participants engaging in a brainstorming session, exchanging ideas to solve key problems.</p>
+                </div>
+                <div class="image-container">
+                    <img src="./Images/CRC_Workshop/55-IMG_8171.jpg" alt="Workshop in Action2">
+                    <p class="image-description">A breakout group deeply focused on their discussion during the workshop.</p>
+                </div>
+                <div class="image-container">
+                    <img src="./Images/CRC_Workshop/14-IMG_7901.jpg" alt="The Team">
+                    <p class="image-description">The dedicated team behind the successful workshop, celebrating their efforts.</p>
+                </div>
+            </div>
+        </section>
+        <div class="project-nav-buttons">
+            <a href="index.html">Homepage</a>
+            <a href="Project2.html">Next Project</a>
+        </div>
+        
+
         <!-- Footer -->
         <footer class="footer">
             <div class="footer-container">
-                <!-- About Section -->
                 <div class="footer-about">
-                    <h3>About This Websites</h3>
+                    <h3>About This Website</h3>
                     <p>Website using HTML, CSS, and JavaScript.</p>
                 </div>
-        
-                <!-- Navigation Links -->
                 <div class="footer-links">
                     <h3>Quick Links</h3>
                     <ul>
@@ -51,27 +86,11 @@
                         <li><a href="Contact.html">Contact</a></li>
                     </ul>
                 </div>
-        
-                <!-- Contact Information -->
                 <div class="footer-contact">
                     <h3>Contact Me</h3>
                     <p>Email: xuanshul@umich.edu</p>
                     <p>Location: Ann Arbor, MI</p>
                 </div>
-        
-                <!-- Social Media -->
-                <div class="footer-social">
-                    <h3>Follow Me</h3>
-                    <div class="social-icons">
-                        <a href="#"><img src="https://via.placeholder.com/24" alt="Facebook"></a>
-                        <a href="#"><img src="https://via.placeholder.com/24" alt="Twitter"></a>
-                        <a href="#"><img src="https://via.placeholder.com/24" alt="Instagram"></a>
-                        <a href="#"><img src="https://via.placeholder.com/24" alt="LinkedIn"></a>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>Xuanshu Lin &copy; 2024 Build with Love. All rights reserved.</p>
             </div>
         </footer>
     </main>
